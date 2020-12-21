@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<h1>Subtraction</h1>
+<input id="n1" type="text" placeholder="enter #1">
+<br><br>
+<input id="n2" type="text" placeholder="enter #2"> <br><br>
+<button id="b1" onclick="sub()">Subtract</button><br><br>
+<span id="s1"></span>
+
+<script>
+    function sub()
+    {
+var a= document.getElementById("n1").value;
+var b= document.getElementById("n2").value;
+var c= parseInt(a) - parseInt(b);
+document.getElementById("s1").innerHTML="answer=" +c;
+
+    }
+
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+</html>

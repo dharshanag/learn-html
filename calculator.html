@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<h1> Addition </h1>
+<input id="n1" type="text" placeholder="enter #1">
+<br><br>
+<input id="n2" type="text" placeholder="enter #2">
+<br><br>
+<button id="b1"onclick="add()">Addition</button><br><br>
+<span id="answer" style="background-color: rgb(43, 144, 226);"></span>
+
+<script>
+function add()
+{
+        var a= document.getElementById("n1").value;
+var b= document.getElementById("n2").value;
+var c= parseInt(a) + parseInt(b);
+document.getElementById("answer").innerHTML="answer=" + c;
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</head>
+</html>
